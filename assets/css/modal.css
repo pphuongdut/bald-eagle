@@ -1,0 +1,39 @@
+/* modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.377);
+}
+
+.modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 15px;
+  transition: all ease-in-out 1s;
+  z-index: 10;
+  box-shadow: 10px 10px 2px 1px #8e959a, 10px 10px 2px 2px black;
+}
+
+.modal-box-layer {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: #8e959a;
+}
+
+/* <div id="modal" class="modal">
+      <div
+        id="modal-box"
+        class="modal-box max-h-[400px] max-w-[800px] w-[80vw] h-[70vh] bg-white border-4 border-solid rounded-[50px] border-black"
+      ></div>
+    </div> */
