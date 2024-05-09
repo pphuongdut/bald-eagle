@@ -58,7 +58,16 @@
 }
 
 .button-shadow {
-  box-shadow: 18px 18px 17px -3px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 18px 18px 17px -3px rgba(0,0,0,0.75);
-  -moz-box-shadow: 18px 18px 17px -3px rgba(0,0,0,0.75);
+  box-shadow: 18px 18px 17px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 18px 18px 17px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 18px 18px 17px -3px rgba(0, 0, 0, 0.75);
+  transition: all 0.3s ease-in-out;
+}
+
+.button-shadow:hover {
+  transform: translateY(-8px);
+}
+
+.button-shadow:active {
+  transform: scale(0.96);
 }
